@@ -19,7 +19,5 @@ public class ex3 {
             num = scanner.nextInt();
         }
         System.out.println("Você digitou " + cont + " números. E a soma é" + soma);
-    }
-    
+    }   
 }
-
