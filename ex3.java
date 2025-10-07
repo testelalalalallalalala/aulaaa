@@ -1,20 +1,24 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+Peça ao usuário um número inteiro e exiba a tabuada de 1 a 10 usando
+for.
  */
 package aula1;
-
-/**
- *
- * @author 122115093
- */
+import java.util.Scanner;
 public class ex3 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner scanner = new Scanner(System.in);
+        int num;
+        int cont = 0;
+        int soma = 0;
+        
+        System.out.println("Digite números (Se informar 0, irá parar):");
+        num = scanner.nextInt();
+            while (num != 0) {
+            soma += num;
+            cont++;
+            num = scanner.nextInt();
+        }
+        System.out.println("Você digitou " + cont + " números. E a soma é" + soma);
     }
     
 }
