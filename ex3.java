@@ -1,6 +1,6 @@
 /*
-Peça ao usuário um número inteiro e exiba a tabuada de 1 a 10 usando
-for.
+Peça números ao usuário até que ele digite o número 0. Ao final, mostre
+quantos números foram digitados (sem contar o zero).
  */
 package aula1;
 import java.util.Scanner;
@@ -22,3 +22,4 @@ public class ex3 {
     }
     
 }
+
